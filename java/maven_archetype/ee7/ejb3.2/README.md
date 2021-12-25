@@ -7,7 +7,7 @@ mvn archetype:generate                                \
   -DgroupId=<my.group.id>                             \
   -DartifactId=<my-artifectid>
 ```
-### Example
+### Example in Non-interactive Mode
 ```
 mvn archetype:generate                                \
   -DarchetypeGroupId=org.apache.maven.archetypes      \
