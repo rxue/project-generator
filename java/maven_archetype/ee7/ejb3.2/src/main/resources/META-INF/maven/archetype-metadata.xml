@@ -4,6 +4,18 @@
         name="ejb3.2">
     <fileSets>
         <fileSet filtered="true" packaged="false" encoding="UTF-8">
+          <directory></directory>
+          <includes>
+            <include>Dockerfile</include>
+          </includes>
+        </fileSet>
+        <fileSet filtered="false" packaged="false" encoding="UTF-8">
+          <directory>docker-config</directory>
+          <includes>
+            <include>*</include>
+          </includes>
+        </fileSet>
+        <fileSet filtered="true" packaged="false" encoding="UTF-8">
           <directory>src/main/resources</directory>
           <includes>
             <include>**/*.xml</include>
