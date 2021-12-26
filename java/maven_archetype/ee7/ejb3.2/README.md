@@ -5,7 +5,8 @@ mvn archetype:generate                                \
   -DarchetypeGroupId=org.apache.maven.archetypes      \
   -DarchetypeArtifactId=ejb3.2                        \
   -DgroupId=<my.group.id>                             \
-  -DartifactId=<my-artifectid>
+  -DartifactId=<my-artifectid>                        \
+  -DipAddress=<ip-address>
 ```
 ### Example in Non-interactive Mode
 ```
@@ -14,5 +15,6 @@ mvn archetype:generate                                \
   -DarchetypeArtifactId=ejb3.2                        \
   -DgroupId=rx                                        \
   -DartifactId=simple-ejb3.2                          \
+  -DipAddress=172.20.0.2                              \
   -DinteractiveMode=false
 ```
