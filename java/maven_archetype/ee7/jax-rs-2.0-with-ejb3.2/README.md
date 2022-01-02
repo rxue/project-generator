@@ -3,7 +3,7 @@
 ## NOTE!
 
 * Default port number: 8080
-* Endpoint URL of the sample resource: `http://localhost:<port number>/<web context>/rest/sample`, where the `<web context>` is the concatenation of artifect ID and version connected with the score
+* Endpoint URL of the sample resource: `http://localhost:<port number>/<web context>/rest/sample`, where the `<web context>` is the artifect ID
 
 ## Command
 ```
