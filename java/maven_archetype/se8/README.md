@@ -16,3 +16,9 @@ mvn archetype:generate                                \
   -DartifactId=simple-java-se-8                       \
   -DinteractiveMode=false
 ```
+
+## Compatibility
+Environment 		| Compatible
+------------------------|-----------
+Windows > Powerhsell	| NO
+Windows > Gitbash	| YES
