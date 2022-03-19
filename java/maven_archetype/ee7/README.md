@@ -16,7 +16,7 @@ mvn archetype:generate \
     -DarchetypeGroupId=org.wildfly.archetype \
     -DarchetypeVersion=8.2.0.Final \
 ```
-### Create an empty web application with `wildfly-javaee7-webapp-blank-archetype`
+### Create an Empty Web Application with `wildfly-javaee7-webapp-blank-archetype` in *Interactive Mode*
 
 ```
 mvn archetype:generate \
